@@ -1,0 +1,34 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Wrapper {
+  width: 100%;
+  max-width: 736px;
+  padding: 4rem 1rem;
+}
+
+.QtdTask {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+
+.QtdTask strong:first-of-type {
+  color: var(--blue);
+}
+
+.QtdTask strong:last-of-type {
+  color: var(--purple);
+}
+
+.QtdTask strong span {
+    background: var(--gray-400);
+    color: var(--gray-100);
+    font-size: 0.75rem;
+    padding: 0.13rem 0.5rem;
+    border-radius: 10px;
+}

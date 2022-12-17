@@ -1,0 +1,12 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray-700);
+  width: 100%;
+}
+
+.Container img {
+  height: 3rem;
+  margin: 4.75rem 0;
+}

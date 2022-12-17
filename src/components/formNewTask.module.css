@@ -1,0 +1,46 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+  margin-top: calc(0px - 1.5rem - 6px); /* Mesma coisa que -2rem */
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--purple-dark);
+}
+
+.Container input {
+  background: var(--gray-500);
+  color: var(--gray-300);
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  width: 638px;
+  height: 3.38rem;
+  outline: 1px solid var(--gray-700);
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+
+.Container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  font-weight: bold;
+  background: #1e6f9f;
+  border: none;
+  padding: 1rem 1rem;
+  color: var(--gray-100);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: color 0.1s, background-color 0.1s;
+}
+
+.Container button:hover {
+  background: var(--blue);
+}
